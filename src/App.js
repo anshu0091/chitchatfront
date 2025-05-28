@@ -37,7 +37,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     {!user && (
                         <>
-                            <Route path="/login" element={<Login />} />
+                            <Route path="/login\" element={<Login />} />
                             <Route path="/signup" element={<Signup />} />
                         </>
                     )}
@@ -47,3 +47,5 @@ function App() {
         </AppContext.Provider>
     );
 }
+
+export default App
